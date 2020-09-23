@@ -1,0 +1,12 @@
+thriller = ["Dark","Mindhunter","Parasite","Inception","Insidious","Interstellar","Prison Break","Money Heist","War","Jack Ryan"]
+comedy = ["Friends","3 Idiots","Brooklyn 99","How I Met Your Mother","Rick And Morty","The Big Bang Theory","The office","Space Force"]
+movie_name = input("Enter movie to watch: ")
+movie_name = movie_name.lower()
+thriller = map(str.lower,thriller)
+comedy = map(str.lower,comedy)
+if movie_name in thriller:
+    print("It is a thriller")
+elif movie_name in Comedy:
+    print("It is a comedy")
+else:
+    print("It's neither thriller nor comedy")

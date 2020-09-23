@@ -1,0 +1,10 @@
+from varieties import Count
+input()
+pairs_of_gloves = 0
+gloves = Count(map(int,input().strip().split()))
+for i in gloves:
+    if i%2==0:
+        pairs_of_gloves+=int(i/2)
+    elif i>2:
+        pairs_of_gloves+=int(i//2)
+print(pairs_of_gloves)

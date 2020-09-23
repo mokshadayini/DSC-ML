@@ -1,1 +1,1 @@
-# DSC-ML
+# DSC assignments
